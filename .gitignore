@@ -1,0 +1,15 @@
+# Variables de entorno (credenciales reales) -- NUNCA se sube
+.env
+
+# Datos generados por el pipeline -- se pueden regenerar corriendo main.py,
+# no hace falta versionarlos
+data/*.csv
+data/*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+venv/
+.venv/
